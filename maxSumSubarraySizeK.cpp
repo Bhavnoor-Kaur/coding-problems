@@ -8,7 +8,6 @@ using namespace std;
 class maxSumSubarrayOfSizeK {
     public:
         static double maxSum(int K, const vector<int>&arr) {
-            vector<double> result(arr.size() - K + 1);
             double maxSum = 0;
             double sum = 0;
             int start = 0;
