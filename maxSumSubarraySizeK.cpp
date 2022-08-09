@@ -27,6 +27,6 @@ class maxSumSubarrayOfSizeK {
 
 
 int main() {
-    cout <<"Maximum Sum: " << maxSumSubarrayOfSizeK::maxSum(3, vector<int>{2, 1, 5, 1, 3, 2}) << endl;
-    cout <<"Maximum Sum: " << maxSumSubarrayOfSizeK::maxSum(2, vector<int>{2, 3, 4, 1, 5}) << endl;
+    cout <<"Maximum Sum: " << maxSumSubarrayOfSizeK::maxSum(3, {2, 1, 5, 1, 3, 2}) << endl;
+    cout <<"Maximum Sum: " << maxSumSubarrayOfSizeK::maxSum(2, {2, 3, 4, 1, 5}) << endl;
 }

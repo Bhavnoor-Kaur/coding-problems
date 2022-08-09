@@ -1,8 +1,8 @@
-using namespace std;
-
 #include <iostream>
 #include <unordered_map>
 #include <vector>
+
+using namespace std;
 
 // given an array, where character represents fruits, you have two baskets, goal is to put max number of fruits in each basket, each  basket can have only one type of fruit
 // can start with any fruit, but once you have started, you cannot skip a fruit.
